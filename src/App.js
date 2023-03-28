@@ -76,7 +76,7 @@ function App() {
     <div
       className={
         toggle
-          ? "bg-gradient-to-r from-green-200 to-blue-300 lg:h-fit lg:w-screen h-fit w-fit px-4 flex flex-col justify-between"
+          ? "bg-gradient-to-r from-green-200 to-blue-300 lg:h-screen lg:w-screen h-fit w-fit px-4 flex flex-col justify-between"
           : "bg-gradient-to-r from-green-200 to-blue-300 lg:h-screen h-screen lg:max-w-screen px-4 flex flex-col justify-between"
       }
     >
