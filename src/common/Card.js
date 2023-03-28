@@ -51,8 +51,8 @@ const Card = ({
         onClick={clickedNumber}
         className={
           crossNumber
-            ? "ease-in-out duration-300 opacity-25 line-through h-full"
-            : "h-full"
+            ? "ease-in-out duration-300 opacity-25 line-through h-full p-2"
+            : "h-full p-2"
         }
       >
         {toggle ? (
