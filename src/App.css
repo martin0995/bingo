@@ -53,3 +53,7 @@ tr:last-child td {
   }
 }
 
+.confetti {
+  width: 100%;
+  height: 100%;
+}
