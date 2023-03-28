@@ -61,7 +61,7 @@ const Card = ({
             <p class="artist">{famousSongs[number].artist}</p>
           </div>
         ) : (
-          number
+          <p className="font-bold text-lg">{number}</p>
         )}
       </div>
     </div>
