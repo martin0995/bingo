@@ -52,3 +52,18 @@ tr:last-child td {
     transform: scale(0.92, 0.95);
   }
 }
+
+/* For screens smaller than 640px */
+@media (max-width: 640px) {
+  table {
+    font-size: 10px; /* reduce font size */
+    width: 80%; /* reduce table width */
+    margin: 0 auto; /* center table horizontally */
+    transform: scale(0.8); /* scale down table and its contents */
+    transform-origin: top left; /* set transform origin to top left */
+  }
+
+  td {
+    height: 50px; /* adjust height to fit scaled contents */
+  }
+}
