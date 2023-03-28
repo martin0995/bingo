@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  border: 1px dashed black;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+td:first-child {
+  border-left: none;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+tr:first-child td {
+  border-top: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.artist {
+  font-size: 10px;
+}
+
+#icon {
+  animation: 1.8s ease 0s infinite beat;
+}
+
+@keyframes beat {
+  0%,
+  50%,
+  100% {
+    transform: scale(1.3, 1.3);
+  }
+  30%,
+  80% {
+    transform: scale(0.92, 0.95);
+  }
+}
