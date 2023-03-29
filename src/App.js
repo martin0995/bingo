@@ -9,7 +9,6 @@ function App() {
   const [numbers, setNumbers] = useState(generateNumbers()); // Generate random numbers for the game.
   const [coveredSquares, setCoveredSquares] = useState([]); // Array with selected indexes (to check when a user wins)
   const [reward, setReward] = useState(false);
-  // const [winner, setWinner] = useState(false);
   const [winningPatterns, setWinningPatterns] = useState(winningMatrix);
   const [completedPattenrs, setcompletedPattenrs] = useState([]);
   const [toggle, setToggle] = useState(false);
@@ -47,7 +46,6 @@ function App() {
     for (const pattern of winningPatterns) {
       if (pattern.every((square) => coveredSquares.includes(square))) {
         // The player has completed the pattern, show an alert
-        // alert("Congratulations, you have won!");
         setcompletedPattenrs([...completedPattenrs, pattern]);
         setReward(true);
         setWinningPatterns(winningPatterns.filter((p) => p !== pattern));
@@ -60,9 +58,6 @@ function App() {
 
   useEffect(() => {
     checkWinner();
-    // setTimeout(() => {
-    //   setReward(false);
-    // }, 10000);
   }, [coveredSquares]);
 
   const handleToggle = () => {

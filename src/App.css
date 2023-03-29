@@ -10,8 +10,6 @@ table {
 
 td {
   border: 1px dashed black;
-  /* width: 110px;
-  height: 110px; */
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -32,10 +30,6 @@ tr:first-child td {
 tr:last-child td {
   border-bottom: none;
 }
-
-/* .artist {
-  font-size: 6px;
-} */
 
 #icon {
   animation: 1.8s ease 0s infinite beat;
