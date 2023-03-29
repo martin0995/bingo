@@ -65,7 +65,7 @@ const Card = ({
             </p>
           </div>
         ) : (
-          <p className="font-bold text-lg">{number}</p>
+          <p className="font-bold text-2xl">{number}</p>
         )}
       </div>
     </div>
