@@ -51,6 +51,9 @@ function App() {
         setcompletedPattenrs([...completedPattenrs, pattern]);
         setReward(true);
         setWinningPatterns(winningPatterns.filter((p) => p !== pattern));
+        setTimeout(() => {
+          setReward(false);
+        }, 10000);
       }
     }
   };
@@ -61,12 +64,6 @@ function App() {
     //   setReward(false);
     // }, 10000);
   }, [coveredSquares]);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setReward(false);
-    }, 10000);
-  }, [reward]);
 
   const handleToggle = () => {
     setToggle(!toggle);
