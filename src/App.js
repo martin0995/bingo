@@ -74,7 +74,7 @@ function App() {
       className={
         toggle
           ? "bg-gradient-to-r from-green-200 to-blue-300 lg:h-screen lg:w-screen h-fit w-fit px-4 flex flex-col justify-between"
-          : "bg-gradient-to-r from-green-200 to-blue-300 lg:h-screen h-screen lg:max-w-screen px-4 flex flex-col justify-between"
+          : "bg-gradient-to-r from-green-200 to-blue-300 h-fit lg:max-w-screen px-4 flex flex-col justify-between"
       }
     >
       <label class="relative inline-flex items-center cursor-pointer mt-3 mb-4">
@@ -96,7 +96,9 @@ function App() {
         </span>
       </label>
 
-      {reward && <Confetti width={window.innerWidth} height={window.innerHeight} />}
+      {reward && (
+        <Confetti width={window.innerWidth} height={window.innerHeight} />
+      )}
 
       <div className="mx-auto sm:w-3/4 sm:h-3/4 md:w-3/4 lg:w-2/3">
         <table className="bg-white rounded -rotate-2 p-4">
