@@ -11,7 +11,7 @@
 
 ## About the project
 
-Developed a bigno game where users can choose to play between the classic bingo board (numbers) or a much interesting game, the music bingo! The music bingo includes the top 75 most popular songs of all time. Enjoy and play with friends!
+Developed a bingo game where users can choose to play between the classic bingo board (numbers) or a much interesting game, the music bingo! The last option includes the top 75 most popular songs of all time. Enjoy and play with friends!
 
 Users can choose between these two bingo games by switching the toggle button on the top-left side of the screen. If you completed your game and want to play again just click on the "play again" button and have fun!
 
