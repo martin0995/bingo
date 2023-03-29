@@ -73,8 +73,8 @@ function App() {
     <div
       className={
         toggle
-          ? "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:w-screen w-fit px-4 flex flex-col justify-between"
-          : "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:max-w-screen px-4 flex flex-col justify-between"
+          ? "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:w-screen w-fit px-4 flex flex-col justify-around"
+          : "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:max-w-screen px-4 flex flex-col justify-around"
       }
     >
       <label class="relative inline-flex items-center cursor-pointer mt-3 mb-4">
