@@ -96,7 +96,7 @@ function App() {
         </span>
       </label>
 
-      {reward && <Confetti className="confetti" />}
+      {reward && <Confetti width={window.innerWidth} height={window.innerHeight} />}
 
       <div className="mx-auto sm:w-3/4 sm:h-3/4 md:w-3/4 lg:w-2/3">
         <table className="bg-white rounded -rotate-2 p-4">

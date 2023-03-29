@@ -52,8 +52,3 @@ tr:last-child td {
     transform: scale(0.92, 0.95);
   }
 }
-
-.confetti {
-  width: 100%;
-  height: 100%;
-}
