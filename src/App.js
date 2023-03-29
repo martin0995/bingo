@@ -111,7 +111,7 @@ function App() {
                   //The middle square is located at index 12. isMiddleSquare is a boolean:
                   const isMiddleSquare = index === 12;
                   return (
-                    <td key={colIndex}>
+                    <td key={colIndex} className="sm:w-[110px] sm:h-[110px]">
                       {isMiddleSquare ? (
                         <img
                           src={star}

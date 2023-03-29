@@ -51,14 +51,16 @@ const Card = ({
         onClick={clickedNumber}
         className={
           crossNumber
-            ? "ease-in-out duration-300 opacity-25 line-through h-full p-2"
-            : "h-full p-2"
+            ? "ease-in-out duration-300 opacity-25 line-through h-full"
+            : "h-full"
         }
       >
         {toggle ? (
           <div>
-            <p className="text-sm font-semibold">{famousSongs[number].song}</p>
-            <p class="artist">{famousSongs[number].artist}</p>
+            <p className="text-[8px] w-[80px] sm:w-auto sm:text-sm font-semibold">
+              {famousSongs[number].song}
+            </p>
+            <p class="text-[6px] sm:text-xs">{famousSongs[number].artist}</p>
           </div>
         ) : (
           <p className="font-bold text-lg">{number}</p>
