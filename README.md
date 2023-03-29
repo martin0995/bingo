@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/martin0995/bingo">
+    <img src="https://cdn-icons-png.flaticon.com/512/7505/7505447.png" alt="Logo" width="100" height="100">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Bingo Game</h3>
 
-## Available Scripts
+<!-- ABOUT THE PROJECT -->
 
-In the project directory, you can run:
+## About the project
 
-### `npm start`
+Developed a bigno game where users can choose to play between the classic bingo board (numbers) or a much interesting game, the music bingo! The music bingo includes the top 75 most popular songs of all time. Enjoy and play with friends!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users can choose between these two bingo games by switching the toggle button on the top-left side of the screen. If you completed your game and want to play again just click on the "play again" button and have fun!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Main technologies:
 
-### `npm test`
+[![React][react.js]][react-url]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <div>
+   <p align="left"> Node.js, React, Tailwind, CSS</p>
+    
+  </div>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Clone the repository
 
-### `npm run eject`
+```sh
+git clone https://github.com/martin0995/bingo
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  Install NPM dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Run the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
+## Dependencies used in the project (package.json):
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <br />
+    "@testing-library/jest-dom": "^5.16.5",<br />
+    "@testing-library/react": "^13.4.0",<br />
+    "@testing-library/user-event": "^13.5.0",<br />
+    "react": "^18.2.0",<br />
+    "react-audio-player": "^0.17.0",<br />
+    "react-confetti": "^6.1.0",<br />
+    "react-dom": "^18.2.0",<br />
+    "react-scripts": "5.0.1",<br />
+    "web-vitals": "^2.1.4"<br />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- CONTACT -->
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Martin Hofmann
 
-### Analyzing the Bundle Size
+  <br>
+Link to the project: https://github.com/martin0995/bingo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
