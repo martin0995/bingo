@@ -4,6 +4,8 @@ import Card from "./common/Card";
 import Confetti from "react-confetti";
 import winningMatrix from "./utils/winningMatrix";
 import star from "./images/star.png";
+import ReactAudioPlayer from "react-audio-player";
+import winningSound from "./audio/winning.wav";
 
 function App() {
   const [numbers, setNumbers] = useState(generateNumbers()); // Generate random numbers for the game.
@@ -51,7 +53,7 @@ function App() {
         setWinningPatterns(winningPatterns.filter((p) => p !== pattern));
         setTimeout(() => {
           setReward(false);
-        }, 10000);
+        }, 8000);
       }
     }
   };
@@ -92,7 +94,10 @@ function App() {
       </label>
 
       {reward && (
-        <Confetti width={window.innerWidth} height={window.innerHeight} />
+        <>
+          <Confetti width={window.innerWidth} height={window.innerHeight} />
+          <ReactAudioPlayer src={winningSound} autoPlay />
+        </>
       )}
 
       <div className="mx-auto sm:w-3/4 sm:h-3/4 md:w-3/4 lg:w-2/3">
