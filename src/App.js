@@ -73,7 +73,7 @@ function App() {
     <div
       className={
         toggle
-          ? "bg-gradient-to-r from-green-200 to-blue-300 lg:h-screen lg:w-screen h-fit w-fit px-4 flex flex-col justify-between"
+          ? "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:w-screen w-fit px-4 flex flex-col justify-between"
           : "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:max-w-screen px-4 flex flex-col justify-between"
       }
     >
@@ -111,7 +111,10 @@ function App() {
                   //The middle square is located at index 12. isMiddleSquare is a boolean:
                   const isMiddleSquare = index === 12;
                   return (
-                    <td key={colIndex} className="sm:w-[110px] sm:h-[110px]">
+                    <td
+                      key={colIndex}
+                      className="sm:w-[110px] sm:h-[110px] w-[80px] h-[80px]"
+                    >
                       {isMiddleSquare ? (
                         <img
                           src={star}

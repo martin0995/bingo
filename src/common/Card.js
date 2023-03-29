@@ -56,11 +56,13 @@ const Card = ({
         }
       >
         {toggle ? (
-          <div>
-            <p className="text-[8px] w-[80px] sm:w-auto sm:text-sm font-semibold">
+          <div className="w-[60px] sm:w-auto">
+            <p className="text-[8px] w-full sm:text-base font-semibold text-center">
               {famousSongs[number].song}
             </p>
-            <p class="text-[6px] sm:text-xs">{famousSongs[number].artist}</p>
+            <p class="text-[6px] w-full sm:text-xs text-center">
+              {famousSongs[number].artist}
+            </p>
           </div>
         ) : (
           <p className="font-bold text-lg">{number}</p>
