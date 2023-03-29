@@ -77,7 +77,7 @@ function App() {
           : "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:max-w-screen px-4 flex flex-col justify-around"
       }
     >
-      <label class="relative inline-flex items-center cursor-pointer mt-3 mb-4">
+      <label class="relative inline-flex items-center cursor-pointer mt-3">
         <input
           type="checkbox"
           value=""
@@ -140,7 +140,7 @@ function App() {
           </tbody>
         </table>
       </div>
-      <div className="flex justify-center p-2 mt-8 mb-2">
+      <div className="flex justify-center p-2 mb-2">
         <button
           className="gap-2 p-2 text-lg rounded-full bg-gradient-to-r from-green-300 to-blue-400 hover:from-pink-400 hover:to-yellow-400"
           onClick={() => {
