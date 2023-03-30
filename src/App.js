@@ -75,7 +75,7 @@ function App() {
           : "bg-gradient-to-r from-pink-400 to-yellow-400 h-screen lg:max-w-screen px-4 flex flex-col justify-around"
       }
     >
-      <label class="relative inline-flex items-center cursor-pointer">
+      <label class="relative inline-flex items-center cursor-pointer w-fit">
         <input
           type="checkbox"
           value=""
