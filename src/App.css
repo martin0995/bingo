@@ -35,6 +35,11 @@ tr:last-child td {
   animation: 1.8s ease 0s infinite beat;
 }
 
+#table-spin {
+  animation: spin linear;
+  animation-duration: 2s;
+}
+
 @keyframes beat {
   0%,
   50%,
@@ -44,5 +49,14 @@ tr:last-child td {
   30%,
   80% {
     transform: scale(0.92, 0.95);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

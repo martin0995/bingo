@@ -70,8 +70,8 @@ function App() {
     <div
       className={
         toggle
-          ? "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:w-screen w-fit px-4 flex flex-col justify-around"
-          : "bg-gradient-to-r from-green-200 to-blue-300 h-screen lg:max-w-screen px-4 flex flex-col justify-around"
+          ? "bg-gradient-to-r from-pink-400 to-yellow-400 h-screen lg:w-screen w-fit px-4 flex flex-col justify-around"
+          : "bg-gradient-to-r from-pink-400 to-yellow-400 h-screen lg:max-w-screen px-4 flex flex-col justify-around"
       }
     >
       <label class="relative inline-flex items-center cursor-pointer">
@@ -101,7 +101,10 @@ function App() {
       )}
 
       <div className="mx-auto sm:w-3/4 sm:h-3/4 md:w-3/4 lg:w-2/3">
-        <table className="bg-white rounded -rotate-2 p-4">
+        <table
+          className="bg-white rounded -rotate-2 p-4"
+          id={reward && "table-spin"}
+        >
           <tbody>
             {[0, 1, 2, 3, 4].map((rowIndex) => (
               <tr key={rowIndex}>
@@ -142,7 +145,7 @@ function App() {
       </div>
       <div className="flex justify-center p-2 mb-2">
         <button
-          className="gap-2 p-2 text-lg rounded-full bg-gradient-to-r from-green-300 to-blue-400 hover:from-pink-400 hover:to-yellow-400"
+          className="gap-2 p-2 text-lg rounded-full bg-gradient-to-r from-green-300 to-blue-400"
           onClick={() => {
             setNumbers(generateNumbers());
             setCoveredSquares([]);
