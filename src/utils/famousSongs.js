@@ -81,7 +81,7 @@ const famousSongs = [
   },
   {
     song: "You Are the Sunshine of My Life",
-    artist: "Stevie Wonder",
+    artist: "S. Wonder",
   },
   {
     song: "Let It Be",
@@ -136,7 +136,7 @@ const famousSongs = [
     artist: "The Beatles",
   },
   {
-    song: "Sweet Dreams (Are Made of This)",
+    song: "Sweet Dreams",
     artist: "Eurythmics",
   },
   {
@@ -161,7 +161,7 @@ const famousSongs = [
   },
   {
     song: "Dancing in the Street",
-    artist: "Martha and the Vandellas",
+    artist: "Martha",
   },
   {
     song: "Jump",
@@ -181,7 +181,7 @@ const famousSongs = [
   },
   {
     song: "Ain't No Mountain High Enough",
-    artist: "Marvin Gaye and Tammi Terrell",
+    artist: "Marvin Gaye",
   },
   {
     song: "When Doves Cry",
@@ -205,11 +205,11 @@ const famousSongs = [
   },
   {
     song: "I Heard It Through the Grapevine",
-    artist: "Marvin Gaye",
+    artist: "M. Gaye",
   },
   {
     song: "Bridge Over Troubled Water",
-    artist: "Simon & Garfunkel",
+    artist: "S. & G.",
   },
   {
     song: "American Pie",
@@ -229,7 +229,7 @@ const famousSongs = [
   },
   {
     song: "The Message",
-    artist: "Grandmaster Flash & The Furious Five",
+    artist: "Grandmaster Flash",
   },
   {
     song: "I Want You",
@@ -245,7 +245,7 @@ const famousSongs = [
   },
   {
     song: "Rock Around the Clock",
-    artist: "Bill Haley & His Comets",
+    artist: "Bill Haley",
   },
   {
     song: "Respect",
