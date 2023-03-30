@@ -14,6 +14,7 @@ function App() {
   const [winningPatterns, setWinningPatterns] = useState(winningMatrix);
   const [completedPattenrs, setcompletedPattenrs] = useState([]);
   const [toggle, setToggle] = useState(false);
+  const [starSpin, setStarSpin] = useState(false);
 
   function generateNumbers() {
     const numbers = [];
@@ -120,10 +121,16 @@ function App() {
                     >
                       {isMiddleSquare ? (
                         <img
+                          onClick={() => {
+                            setStarSpin(true);
+                            setTimeout(() => {
+                              setStarSpin(false);
+                            }, 1000);
+                          }}
                           src={star}
                           alt="Star"
                           className="mx-auto"
-                          id={reward ? "icon" : ""}
+                          id={reward ? "icon" : starSpin ? "star-spin" : ""}
                         />
                       ) : (
                         <Card

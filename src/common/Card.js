@@ -52,7 +52,7 @@ const Card = ({
         className={
           crossNumber
             ? "ease-in-out duration-300 opacity-25 line-through h-full flex flex-row justify-center"
-            : "h-full flex flex-row justify-center"
+            : "h-full flex flex-row justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105"
         }
       >
         {toggle ? (

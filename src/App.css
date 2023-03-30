@@ -41,6 +41,11 @@ tr:last-child td {
   animation-duration: 1.5s;
 }
 
+#star-spin {
+  animation: spin linear;
+  animation-duration: 1s;
+}
+
 @keyframes beat {
   0%,
   50%,
