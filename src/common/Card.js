@@ -32,7 +32,7 @@ const Card = ({
     <div
       className={
         winnerIndex
-          ? "flex flex-col h-full justify-between ease-in-out duration-500 bg-green-200 z-5 rounded-lg"
+          ? "flex flex-col h-full justify-between ease-in-out duration-500 bg-blue-200 z-5 rounded-lg"
           : "flex flex-col h-full justify-between"
       }
     >
