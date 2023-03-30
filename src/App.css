@@ -9,10 +9,11 @@ table {
 }
 
 td {
-  border: 1px dashed black;
+  border: 4px rgba(187, 179, 179, 0.721);
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
+  border-style: groove;
 }
 
 td:first-child {
