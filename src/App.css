@@ -37,7 +37,7 @@ tr:last-child td {
 
 #table-spin {
   animation: spin linear;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
 }
 
 @keyframes beat {
